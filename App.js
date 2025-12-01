@@ -12,6 +12,7 @@ import LogoScreen from './src/screens/LogoScreen';
 import QuizLogoScreen from './src/screens/QuizLogoScreen';
 import DrapeauScreen from './src/screens/DrapeauScreen';
 import QuizDrapeauScreen from './src/screens/QuizDrapeauScreen';
+import ParametresScreen from './src/screens/ParametresScreen';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -105,6 +106,14 @@ export default function App() {
           component={QuizDrapeauScreen}
           options={{ 
             title: 'Quiz Drapeau',
+            headerBackTitle: 'Retour'
+          }}
+        />
+        <Stack.Screen 
+          name="Parametres" 
+          component={ParametresScreen}
+          options={{ 
+            title: 'Paramètres',
             headerBackTitle: 'Retour'
           }}
         />

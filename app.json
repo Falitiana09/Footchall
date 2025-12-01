@@ -21,10 +21,16 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "buildType": "apk"
+      "buildType": "apk",
+      "package": "com.falitiana123.footchall"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "205ce689-0488-4e41-9d84-57759c9f32f4"
+      }
     }
   }
 }
